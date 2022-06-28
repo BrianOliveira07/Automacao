@@ -72,8 +72,6 @@ public class Testes {
 		metodo.escrever(codLink.getCity(), "Brasília");
 		metodo.clicar(codLink.getAddress());
 		metodo.escrever(codLink.getAddress(), "Quadra Q 1 Conjunto D");
-		metodo.clicar(codLink.getStateProvinceRegion());
-		metodo.escrever(codLink.getStateProvinceRegion(), "DF");
 		metodo.clicar(codLink.getPostalCode());
 		metodo.escrever(codLink.getPostalCode(), "72145-104");
 
@@ -226,7 +224,7 @@ public class Testes {
 	@Entao("depois clico no botao de acesso ao usuario")
 	public void depois_clico_no_botao_de_acesso_ao_usuario() throws InterruptedException {
 
-		metodo.tempo(2000);
+		metodo.tempo(3000);
 		metodo.clicar(codLink.getLogin());
 
 	}

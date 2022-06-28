@@ -15,7 +15,6 @@ public class Elementos {
 	private By phoneNumber = By.xpath("//*[@id=\"formCover\"]/div[2]/div[2]/sec-view/div/input");
 	private By city = By.xpath("//*[@id=\"formCover\"]/div[3]/div[1]/sec-view[2]/div/input");
 	private By address = By.xpath("//*[@id=\"formCover\"]/div[3]/div[2]/sec-view[1]/div/input");
-	private By stateProvinceRegion = By.xpath("//*[@id=\"formCover\"]/div[3]/div[2]/sec-view[2]/div/input");
 	private By postalCode = By.xpath("//*[@id=\"formCover\"]/div[3]/div[3]/sec-view/div/input");
 	private By checkbox1 = By.xpath("//*[@id=\"formCover\"]/div[4]/input");
 	private By checkbox2 = By.xpath("//*[@id=\"formCover\"]/sec-view/div/input");
@@ -73,10 +72,6 @@ public class Elementos {
 
 	public By getAddress() {
 		return address;
-	}
-
-	public By getStateProvinceRegion() {
-		return stateProvinceRegion;
 	}
 
 	public By getPostalCode() {
