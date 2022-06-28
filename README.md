@@ -1,4 +1,4 @@
-## MeusEstudos-Cucumber-Selenium
+## Automação-Cucumber-Selenium
 
 <p align="center">Prova Técnica de Automação de Teste</p>
 
