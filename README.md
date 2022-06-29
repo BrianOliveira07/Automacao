@@ -15,4 +15,12 @@
 * Java 8
 * Eclipse
 
+## Observação
+
+Antes de iniciar o teste, verifique se a versão do seu navegador, e do seu sistema operacional está de acordo com o driver utilizado no projeto. 
+Caso não seja a mesma versão, sinta-se a vontade para modifica-lo acessando os respectios sites:
+
+* [Driver do navegador Chrome Driver](https://chromedriver.chromium.org/downloads)
+* [Driver do navegador Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+
 Feito por Brian Oliveira [Acesse meu linkedin](https://www.linkedin.com/in/brian-oliveira-385356122/)
