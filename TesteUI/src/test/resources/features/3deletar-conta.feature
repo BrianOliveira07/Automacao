@@ -1,7 +1,7 @@
 #language:pt
 #Author: brianoliveira228@hotmail.com
 
-@regressivos @exlusao
+@regressivos @exclusao
 Funcionalidade: Excluir a conta
   Eu como cliente quero ter facilidade para deletar minha conta caso não precise mais
 

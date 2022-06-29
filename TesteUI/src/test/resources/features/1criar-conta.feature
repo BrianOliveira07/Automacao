@@ -8,7 +8,7 @@ Funcionalidade: Criar uma conta
   Fundo: Acessar o site
     Dado que eu acesse o site "https://www.advantageonlineshopping.com/#/"
 
-  @positivo
+  @positivo @smoketeste
   Cenario: Validar cadastro da conta com sucesso
     E clique no botao de acesso ao usuario
     Quando clicar em CREATE NEW ACCOUNT

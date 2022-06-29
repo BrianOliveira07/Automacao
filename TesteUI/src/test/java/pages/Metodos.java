@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -19,13 +20,28 @@ public class Metodos {
 
 	WebDriver driver;
 
-	public void abrirNavegador(String passo, String site) {
+	public void abrirNavegador(String passo, String site, String navegador) {
 
-		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get(site);
-		driver.manage().window().maximize();
-		
+		if (navegador.equalsIgnoreCase("Chrome")) {
+
+			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.get(site);
+			driver.manage().window().maximize();
+
+		} else if (navegador.equalsIgnoreCase("Edge")) {
+
+			System.setProperty("webdriver.edge.driver", "./Drivers/msedgedriver.exe");
+			driver = new EdgeDriver();
+			driver.get(site);
+			driver.manage().window().maximize();
+
+		} else {
+
+			System.out.println("Não utilizamos esse navegador");
+
+		}
+
 	}
 
 	public void clicar(By element) {

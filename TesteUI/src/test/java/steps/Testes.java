@@ -16,7 +16,7 @@ public class Testes {
 	@Dado("que eu acesse o site {string}")
 	public void que_eu_acesse_o_site(String site) {
 
-		metodo.abrirNavegador("Iniciando teste", site);
+		metodo.abrirNavegador("Iniciando teste", site, "chrome");
 
 	}
 
