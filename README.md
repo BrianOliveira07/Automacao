@@ -17,7 +17,7 @@
 
 ## Observação
 
-Antes de iniciar o teste, verifique se a versão do seu navegador, e do seu sistema operacional está de acordo com o driver utilizado no projeto. 
+Antes de iniciar o teste, verifique se a versão do seu navegador e do seu sistema operacional está de acordo com o driver utilizado no projeto. 
 Caso não seja a mesma versão, sinta-se a vontade para modifica-lo acessando os respectios sites:
 
 * [Driver do navegador Chrome Driver](https://chromedriver.chromium.org/downloads)
