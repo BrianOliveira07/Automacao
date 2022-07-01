@@ -18,17 +18,17 @@ Funcionalidade: Realizar o login
     Entao fecho o navegador
 
   @negativo @smoketeste
+  Cenario: Validar o nao acesso com apenas o usuario
+    E clique no botao de acesso ao usuario
+    Entao preencho o usuario
+    E valido tirando print do botao SING IN desativado
+    Entao fecho o navegador
+
+  @negativo @smoketeste
   Cenario: Validar o não login com conta inexistente
     E clique no botao de acesso ao usuario
     Entao preencho os campos de login inexistente
     Entao clico em SIGN IN
     Entao valido texto "Incorrect user name or password."
     E tiro print
-    Entao fecho o navegador
-
-  @negativo @smoketeste
-  Cenario: Validar o nao acesso com apenas o usuario
-    E clique no botao de acesso ao usuario
-    Entao preencho o usuario
-    E valido tirando print do botao SING IN desativado
     Entao fecho o navegador
